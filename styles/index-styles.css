@@ -1,0 +1,94 @@
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.top-container {
+	display: flex;
+	height: 100vh;
+}
+
+.showcase {
+	display: flex;
+	align-items: center;
+	background: #ccc;
+	width: 70%;
+	background-image: url('/img/entrance2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #209cee;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0 0 8px #209cee;
+}
+
+.nav {
+	background: #209cee;
+	width: 30%;
+	padding: 1rem 3rem;
+	text-align: center;
+	-webkit-box-shadow: -5px 0px 10px 3px #209cee;
+	-moz-box-shadow: -5px 0px 10px 3px #209cee;
+	box-shadow: -5px 0px 10px 3px #209cee;
+}
+
+.showcase__header {
+	color: #fff;
+	letter-spacing: 0.1rem;
+	font-size: 4rem;
+}
+
+.nav ul {
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	line-height: 2rem;
+	margin-top: 3rem;
+	list-style: none;
+	font-weight: 700;
+}
+
+.nav__item {
+	background: #a2d3f3;
+	-webkit-box-shadow: 0px 0px 10px 1px #fff;
+	-moz-box-shadow: 0px 0px 10px 1px #fff;
+	box-shadow: 0px 0px 10px 1px #fff;
+	margin-bottom: 30px;
+	transition: 0.4s;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.nav__item:hover {
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(53, 51, 51, 0.71);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(53, 51, 51, 0.71);
+	box-shadow: 0px 0px 10px 2px rgba(53, 51, 51, 0.71);
+	color: #209cee;
+	text-shadow: 0 0 8px white;
+}
+
+.contacts {
+	margin-top: 4rem;
+	color: #fff;
+}
+
+.contacts__phone {
+	font-size: 1.2rem;
+	transition: 0.3s;
+}
+
+.social-icons i {
+	font-size: 2rem;
+	margin: 0.5rem 0.3rem;
+	transition: 0.3s;
+}
+
+.social-icons i:hover,
+.contacts__phone:hover {
+	color: #107cc4;
+}
