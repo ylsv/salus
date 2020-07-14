@@ -9,12 +9,12 @@
 	height: 100vh;
 }
 .about__header {
-	margin-top: 0;
-	padding-top: 3rem;
+	padding-top: 2rem;
+	font-size: 3rem;
 }
 .about .wrapper {
 	margin-top: 5rem;
-	padding: 2rem;
+	padding: 3rem;
 	display: flex;
 	align-items: center;
 	background: #a2d3f3;

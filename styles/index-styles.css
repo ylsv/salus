@@ -10,6 +10,7 @@ a {
 }
 
 .header {
+	margin-top: 0;
 	color: #fff;
 	text-align: center;
 	font-family: 'Pacifico', cursive;
