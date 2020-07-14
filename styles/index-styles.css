@@ -1,10 +1,20 @@
+html,
 body {
 	font-family: 'Comfortaa', cursive;
+	scroll-behavior: smooth;
 }
 
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.header {
+	color: #fff;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 0 0 8px #209cee;
+	letter-spacing: 0.1rem;
 }
 
 .top-container {
@@ -21,25 +31,19 @@ a {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #209cee;
-	text-align: center;
-	font-family: 'Pacifico', cursive;
-	text-shadow: 0 0 8px #209cee;
 }
 
 .nav {
 	background: #209cee;
 	width: 30%;
-	padding: 1rem 3rem;
+	padding: 1rem 3rem 0;
 	text-align: center;
-	-webkit-box-shadow: -5px 0px 10px 3px #209cee;
-	-moz-box-shadow: -5px 0px 10px 3px #209cee;
-	box-shadow: -5px 0px 10px 3px #209cee;
+	-webkit-box-shadow: -5px -3px 10px 3px #209cee;
+	-moz-box-shadow: -5px -3px 10px 3px #209cee;
+	box-shadow: -5px -3px 10px 3px #209cee;
 }
 
 .showcase__header {
-	color: #fff;
-	letter-spacing: 0.1rem;
 	font-size: 4rem;
 }
 
