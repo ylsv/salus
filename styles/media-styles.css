@@ -229,6 +229,27 @@
 	}
 }
 
+@media (max-width: 550px) {
+	.top-container {
+		height: 100vh;
+	}
+	.about {
+		height: 100vh;
+	}
+	.schedule {
+		height: 110vh;
+	}
+	.tariffs {
+		height: 120vh;
+	}
+	.pics {
+		height: 170vh;
+	}
+	.contact-section {
+		height: 100vh;
+	}
+}
+
 @media (max-width: 360px) {
 	.top-container {
 		height: 120vh;
