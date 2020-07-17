@@ -250,6 +250,21 @@
 	}
 }
 
+@media (max-width: 376px) {
+	.about {
+		height: 120vh;
+	}
+	.tariffs {
+		height: 140vh;
+	}
+	.pics {
+		height: 180vh;
+	}
+	.contact-section {
+		height: 110vh;
+	}
+}
+
 @media (max-width: 360px) {
 	.top-container {
 		height: 120vh;
