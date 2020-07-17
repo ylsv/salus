@@ -9,9 +9,15 @@ function showFullScreen(e) {
 	images.forEach((img) => {
 		img.style.display = 'none';
 	});
-	e.target.parentElement.style.display = 'inline';
-	e.target.parentElement.classList.add('large-pic');
-	e.stopPropagation();
+	if (e.target.classList.contains('pics__img')) {
+		e.target.style.display = 'inline';
+		e.target.classList.add('large-pic');
+		e.stopPropagation();
+	} else {
+		e.target.parentElement.style.display = 'inline';
+		e.target.parentElement.classList.add('large-pic');
+		e.stopPropagation();
+	}
 }
 
 function showAllImages(e) {
