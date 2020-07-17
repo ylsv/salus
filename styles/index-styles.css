@@ -131,6 +131,18 @@ a {
 .about .text {
 	margin: 0 3rem;
 }
+.about__instagram {
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #a2d3f3;
+	-webkit-box-shadow: 0px 0px 10px 1px #fff;
+	-moz-box-shadow: 0px 0px 10px 1px #fff;
+	box-shadow: 0px 0px 10px 1px #fff;
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+}
 /* Schedule */
 .schedule {
 	background: #209cee;
@@ -196,7 +208,7 @@ a {
 	box-shadow: 0px 0px 10px 1px #fff;
 	border-radius: 5px;
 	padding: 3px 15px 10px;
-	max-width: 980px;
+	max-width: 940px;
 	margin: 20px auto;
 }
 .tariffs .comments__item {
@@ -222,7 +234,7 @@ a {
 	justify-content: center;
 }
 .pics__img {
-	height: 300px;
+	height: 30vh;
 	padding: 20px;
 	background: #a2d3f3;
 	-webkit-box-shadow: 0px 0px 10px 1px #fff;

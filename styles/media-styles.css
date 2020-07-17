@@ -1,0 +1,251 @@
+/* Media */
+@media (max-height: 900px) {
+	/* top */
+	body {
+		font-size: 80%;
+	}
+	.nav ul {
+		line-height: 1.5rem;
+		margin-top: 2rem;
+	}
+	.contacts {
+		margin-top: 2rem;
+		font-size: 85%;
+	}
+	.contacts__phone {
+		font-size: 1rem;
+	}
+
+	/* schedule  */
+	.schedule__header {
+		padding-top: 1rem;
+		font-size: 2rem;
+	}
+	.schedule .table {
+		font-size: 90%;
+		grid-gap: 17px;
+	}
+
+	/* tariffs */
+	.tariffs__header {
+		padding-top: 1rem;
+	}
+	.tariffs .table {
+		grid-gap: 12px;
+		font-size: 85%;
+	}
+
+	/* contacts */
+	.contact-section .wrapper {
+		grid-gap: 15px;
+		padding: 10px 0 5px;
+	}
+	.contact-section .wrapper__header {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 1400px) {
+	/* About */
+	.about__img {
+		width: 40%;
+	}
+	.about__header {
+		padding-top: 1rem;
+		font-size: 2rem;
+	}
+	.about .wrapper {
+		margin-top: 2rem;
+		padding: 1rem;
+	}
+	/* Pics */
+	.pics .wrapper {
+		grid-template-columns: 40% 40%;
+	}
+
+	/* contacts */
+	.contact-section .wrapper {
+		grid-template-columns: 30% 60%;
+	}
+}
+
+@media (max-width: 1050px) {
+	.nav__logo {
+		width: 85%;
+	}
+	/* About */
+	.about__text {
+		font-size: 90%;
+	}
+	/* schedule  */
+	.schedule .table {
+		grid-template-columns: 15% 15% 20%;
+	}
+	.schedule .table div {
+		font-size: 80%;
+	}
+	/* Tariffs */
+	.tariffs .table {
+		grid-template-columns: 40% 12% 12% 12% 12%;
+	}
+	.table__header {
+		font-size: 90%;
+	}
+	.tariffs .comments {
+		max-width: 93%;
+	}
+	/* contacts  */
+	.contact-section .wrapper,
+	.contact-section .wrapper__header {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 800px) {
+	.about__text {
+		font-size: 80%;
+	}
+	.tariffs .table {
+		grid-template-columns: 30% 7% 12% 12% 14%;
+		font-size: 50%;
+	}
+	.tariffs .comments {
+		max-width: 80%;
+	}
+	/* Contacts */
+	.contact-section {
+		height: 105vh;
+	}
+}
+
+@media (max-width: 730px) {
+	.top-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.showcase,
+	.nav {
+		width: 100%;
+	}
+	.nav {
+		flex-grow: 1;
+		padding: 0;
+	}
+	.showcase__header {
+		font-size: 2rem;
+		padding: 10px 5px;
+	}
+	.nav__logo {
+		width: 40%;
+	}
+	.nav ul {
+		display: grid;
+		grid-template-columns: repeat(3, 30%);
+		grid-gap: 15px;
+		justify-content: center;
+	}
+	/* about  */
+	.about {
+		height: 110vh;
+	}
+	.about .wrapper {
+		flex-direction: column;
+	}
+	.about__img {
+		width: 60%;
+	}
+
+	/* tariffs  */
+	.tariffs {
+		height: 120vh;
+	}
+}
+
+@media (max-width: 730px) {
+	/* top  */
+	.nav ul {
+		grid-template-columns: repeat(2, 40%);
+		grid-gap: 20px;
+		font-size: 80%;
+	}
+	.nav__item {
+		margin-bottom: 0;
+	}
+
+	/* about  */
+	.about .wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.about .text {
+		margin: 0 1rem;
+	}
+	.about {
+		height: 130vh;
+	}
+	/* schedule  */
+	.schedule {
+		height: 110vh;
+	}
+	.schedule .table {
+		grid-template-columns: 17% 19% 30%;
+	}
+
+	/* tariffs  */
+	.tariffs {
+		height: 150vh;
+	}
+	.tariffs__header {
+		font-size: 1.3rem;
+	}
+
+	/* pics  */
+	.pics {
+		height: 180vh;
+	}
+	.pics__header {
+		padding-top: 1rem;
+		font-size: 1.3rem;
+	}
+	.pics .wrapper {
+		grid-template-columns: 1fr;
+		margin: 0 5px;
+	}
+
+	/* contacts  */
+	.contact-section {
+		height: 105vh;
+	}
+	.contact-section__header {
+		padding-top: 1rem;
+		font-size: 1.3rem;
+	}
+	.contact-section .wrapper,
+	.contact-section__map {
+		margin: 10px 20px;
+	}
+	.contact-section__item {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 360px) {
+	.top-container {
+		height: 120vh;
+	}
+	.about {
+		height: 150vh;
+	}
+	.schedule {
+		height: 140vh;
+	}
+	.tariffs {
+		height: 180vh;
+	}
+	.pics {
+		height: 200vh;
+	}
+	.contact-section {
+		height: 140vh;
+	}
+}

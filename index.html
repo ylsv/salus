@@ -11,11 +11,12 @@
   <script src="https://kit.fontawesome.com/1ffd8209ac.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="/styles/index-styles.css">
+  <link rel="stylesheet" href="/styles/media-styles.css">
   <title>Соляная пещера SALUS</title>
 </head>
 <body>
 
-    <section class="top-container">
+    <section class="top-container section-container">
       <header class="showcase">
         <h1 class="header showcase__header">Добро пожаловать в соляную пещеру</h1>
       </header>
@@ -42,7 +43,7 @@
       </nav>
     </section>
 
-    <section class="about" id='about'>
+    <section class="about section-container" id='about'>
       <h2 class="header about__header">О нас</h2>
       <div class="wrapper">
         <img src="img/showcase.jpg" alt="about-image" class="about__img">
@@ -50,11 +51,12 @@
           <p class="about__text"><strong>Соляная пещера</strong> - это удивительное место. Здесь Вы можете эффективно очистить органы дыхания от вирусов, бактерий и аллергенов, насытить кровь кислородом, избавиться от кожных патологий, восстановить и активизировать собственные защитные механизмы.</p>
           <p class="about__text">И даже если вы абсолютно здоровы, сеанс релаксации в заряженном отрицательными ионами помещении принесет вашему организму только пользу, ведь в сумашедшей современной жизни иногда нужно останавливаться, чтобы насладиться спокойствием, журчанием водопада под тихую музыку и магическим светом соляных ламп. Курорт в собственном городе.</p>
           <p class="about__text">Воздух, наполненный мельчайшими частичками соли, снимает усталость и раздражительность, лечит стрессы, неврозы, бессонницу, хроническую усталость и дарит положительные эмоци.</p>
+          <p class="about__text about__instagram">С актуальной информацией о наших акциях и спецпредложениях вы можете ознакомиться на странице в <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram!</a></p>
         </div>
       </div>
     </section>
 
-    <section class="schedule" id='schedule'>
+    <section class="schedule section-container" id='schedule'>
       <h2 class="header schedule__header">Расписание</h2>
       <div class="table">
         <div class="table__header">Номер сеанса</div>
@@ -107,71 +109,72 @@
       </div>
     </section>
 
-    <section class="tariffs" id="tariffs">
+    <section class="tariffs section-container" id="tariffs">
       <h2 class="header tariffs__header">Стоимость услуги галооздоровления</h2>
+      <div class="tariffs-wrapper">
+        <div class="table">
+          <div class="table__header">Количество сеансов</div>
+          <div class="table__header">1</div>
+          <div class="table__header">5</div>
+          <div class="table__header">10</div>
+          <div class="table__header">Безлимит</div>
+          <div class="table__item">Посетители / период</div>
+          <div class="table__item">-</div>
+          <div class="table__item">10 дней</div>
+          <div class="table__item">20 дней</div>
+          <div class="table__item">30 дней</div>
 
-      <div class="table">
-        <div class="table__header">Количество сеансов</div>
-        <div class="table__header">1</div>
-        <div class="table__header">5</div>
-        <div class="table__header">10</div>
-        <div class="table__header">Безлимит</div>
-        <div class="table__item">Посетители / период</div>
-        <div class="table__item">-</div>
-        <div class="table__item">10 дней</div>
-        <div class="table__item">20 дней</div>
-        <div class="table__item">30 дней</div>
+          <div class="table__item">Взрослый</div>
+          <div class="table__item">400</div>
+          <div class="table__item">1750</div>
+          <div class="table__item">3000</div>
+          <div class="table__item">5600</div>
 
-        <div class="table__item">Взрослый</div>
-        <div class="table__item">400</div>
-        <div class="table__item">1750</div>
-        <div class="table__item">3000</div>
-        <div class="table__item">5600</div>
+          <div class="table__item">Пенсионер, студент</div>
+          <div class="table__item">300</div>
+          <div class="table__item">1250</div>
+          <div class="table__item">2000</div>
+          <div class="table__item">3700</div>
 
-        <div class="table__item">Пенсионер, студент</div>
-        <div class="table__item">300</div>
-        <div class="table__item">1250</div>
-        <div class="table__item">2000</div>
-        <div class="table__item">3700</div>
+          <div class="table__item">Школьник (от 7 до 16 лет)</div>
+          <div class="table__item">200</div>
+          <div class="table__item">900</div>
+          <div class="table__item">1500</div>
+          <div class="table__item">2800</div>
 
-        <div class="table__item">Школьник (от 7 до 16 лет)</div>
-        <div class="table__item">200</div>
-        <div class="table__item">900</div>
-        <div class="table__item">1500</div>
-        <div class="table__item">2800</div>
+          <div class="table__item">Дети до 7 лет*</div>
+          <div class="table__item">50</div>
+          <div class="table__item">Бесплатно</div>
+          
+          <div class="table__item">Лимфодренаж 30 мин</div>
+          <div class="table__item">500</div>
+          <div class="table__item">-</div>
+          <div class="table__item">4000</div>
+          <div class="table__item">-</div>
+          
+          <div class="table__item">Лимфодренаж 2 х 20 мин</div>
+          <div class="table__item">600</div>
+          <div class="table__item">-</div>
+          <div class="table__item">5000</div>
+          <div class="table__item">-</div>
 
-        <div class="table__item">Дети до 7 лет*</div>
-        <div class="table__item">50</div>
-        <div class="table__item">Бесплатно</div>
-        
-        <div class="table__item">Лимфодренаж 30 мин</div>
-        <div class="table__item">500</div>
-        <div class="table__item">-</div>
-        <div class="table__item">4000</div>
-        <div class="table__item">-</div>
-        
-        <div class="table__item">Лимфодренаж 2 х 20 мин</div>
-        <div class="table__item">600</div>
-        <div class="table__item">-</div>
-        <div class="table__item">5000</div>
-        <div class="table__item">-</div>
+          <div class="table__item">Лимфодренаж(прессомассаж) первый пробный сеанс -10 руб/мин.</div>
+        </div>
 
-        <div class="table__item">Лимфодренаж(прессомассаж) первый пробный сеанс -10 руб/мин.</div>
-      </div>
-
-      <div class="comments">
-        <p class='comments__rent'>Аренда сеанаса соляной пещеры - 1200 руб (до 6 человек)</p>
-        <p class='comments__rent'><strong>VIP - 1990 руб. (соляная пещера + массажеры +прессомассаж + кислородные коктейли)</strong></p>
-        <div class="comments__item">*только в сопровождении взрослого.</div>
-        <div class="comments__item">С одним взрослым бесплатно не более 2-х детей.</div>
-        <div class="comments__item">Многодетным семьям скидка на абонемент 30%</div>
-        <div class="comments__item">При единовременной покупке двух и более абонементов скидка 10%</div>
-        <div class="comments__item">Возврат средств за  неиспользованные сеансы рассчитывается по формуле: стоимость абонемента –(количество посещений х стоимость разового посещения), для Безлимита количество посещений равно количеству дней с момента покупки.</div>
-        <div class="comments__item">После окончания срока действия абонемента средства за неиспользованные сеансы <span class="comments__red">не возвращаются!</span></div>
+        <div class="comments section-container">
+          <p class='comments__rent'>Аренда сеанаса соляной пещеры - 1200 руб (до 6 человек)</p>
+          <p class='comments__rent'><strong>VIP - 1990 руб. (соляная пещера + массажеры +прессомассаж + кислородные коктейли)</strong></p>
+          <div class="comments__item">*только в сопровождении взрослого.</div>
+          <div class="comments__item">С одним взрослым бесплатно не более 2-х детей.</div>
+          <div class="comments__item">Многодетным семьям скидка на абонемент 30%</div>
+          <div class="comments__item">При единовременной покупке двух и более абонементов скидка 10%</div>
+          <div class="comments__item">Возврат средств за  неиспользованные сеансы рассчитывается по формуле: стоимость абонемента –(количество посещений х стоимость разового посещения), для Безлимита количество посещений равно количеству дней с момента покупки.</div>
+          <div class="comments__item">После окончания срока действия абонемента средства за неиспользованные сеансы <span class="comments__red">не возвращаются!</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="pics" id="pics">
+    <section class="pics section-container" id="pics">
       <h2 class="header pics__header">Наши фото</h2>
       <div class="wrapper">
         <div class="pics__img"><img src="img/city-resort.jpg" alt="pic1"></div>
@@ -181,7 +184,7 @@
       </div>
     </section>  
 
-    <section class="contact-section" id="contact-section">
+    <section class="contact-section section-container" id="contact-section">
       <h2 class="header contact-section__header">Контакты</h2>
       <div class="wrapper">
         <div class="wrapper__header">Адрес:</div>
