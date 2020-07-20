@@ -178,14 +178,40 @@
 
     <section class="pics section-container" id="pics">
       <h2 class="header pics__header">Наши фото</h2>
-      <div class="wrapper">
+      <!-- <div class="wrapper">
         <div class="pics__img"><img src="img/city-resort.jpg" alt="pic1"></div>
         <div class="pics__img"><img src="img/entrance2.jpg" alt="pic2"></div>
         <div class="pics__img"><img src="img/salt-cave.jpg" alt="pic3"></div>
         <div class="pics__img"><img src="img/salt-lamps.jpg" alt="pic4"></div>
-      </div>
-      <a href="#top-container" class="btn btn-up"><i class="fas fa-arrow-up"></i></a>
+      </div> -->
+      
+      <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <span id="item-4"></span>
+        <div class="carousel-item item-1">
+          <a class="arrow arrow-prev" href="#item-4"></a>
+          <a class="arrow arrow-next" href="#item-2"></a>
+        </div>
+        
+        <div class="carousel-item item-2">
+          <a class="arrow arrow-prev" href="#item-1"></a>
+          <a class="arrow arrow-next" href="#item-3"></a>
+        </div>
+        
+        <div class="carousel-item item-3">
+          <a class="arrow arrow-prev" href="#item-2"></a>
+          <a class="arrow arrow-next" href="#item-4"></a>
+        </div>
 
+        <div class="carousel-item item-4">
+          <a class="arrow arrow-prev" href="#item-3"></a>
+          <a class="arrow arrow-next" href="#item-1"></a>
+        </div>
+      </div>
+
+      <a href="#top-container" class="btn btn-up"><i class="fas fa-arrow-up"></i></a>
     </section>  
 
     <section class="contact-section section-container" id="contact-section">
