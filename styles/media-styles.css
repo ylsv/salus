@@ -285,3 +285,12 @@
 		height: 140vh;
 	}
 }
+
+@media (max-height: 700px) {
+	.section-container {
+		height: 770px;
+	}
+	.tariffs {
+		height: 1000px;
+	}
+}
