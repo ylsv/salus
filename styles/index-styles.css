@@ -143,10 +143,15 @@ a {
 	background: #a2d3f3;
 	-webkit-box-shadow: 0px 0px 10px 1px #fff;
 	-moz-box-shadow: 0px 0px 10px 1px #fff;
-	box-shadow: 0px 0px 10px 1px #fff;
+	box-shadow: 0px 0px 10px 1px orangered;
 	border-radius: 5px;
 	padding: 10px;
-	color: #fff;
+	color: #eee;
+	font-weight: bold;
+	text-shadow: 0 0 8px #209cee;
+}
+.about__instagram a {
+	color: orangered;
 }
 .btn-up {
 	text-align: center;
